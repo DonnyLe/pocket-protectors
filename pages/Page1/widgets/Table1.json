@@ -4,7 +4,7 @@
     "onSort": "{{\n            Select_User1.run();\n            Total_record_User1.run()\n          }}",
     "isVisibleDownload": false,
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 8,
+    "topRow": 12,
     "isSortable": true,
     "onPageChange": "{{\n            Select_User1.run();\n            Total_record_User1.run()\n          }}",
     "type": "TABLE_WIDGET_V2",
@@ -30,7 +30,7 @@
         {"key": "primaryColumns.EditActions1.isDiscardDisabled"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 19,
+    "leftColumn": 23,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "showInlineEditingOptionDropdown": true,
@@ -94,7 +94,7 @@
         {"key": "primaryColumns.EditActions1.isDiscardDisabled"}
     ],
     "displayName": "Table",
-    "bottomRow": 50,
+    "bottomRow": 54,
     "columnWidthMap": {},
     "parentRowSpace": 10,
     "hideCard": false,

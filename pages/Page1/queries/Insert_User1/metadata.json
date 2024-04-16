@@ -15,6 +15,7 @@
     },
     "pageId": "Page1",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "INSERT INTO User (group_id,Email,first_name,middle_name,last_name,password) VALUES ('{{(Table1.newRow || {}).group_id}}','{{(Table1.newRow || {}).Email}}','{{(Table1.newRow || {}).first_name}}','{{(Table1.newRow || {}).middle_name}}','{{(Table1.newRow || {}).last_name}}','{{(Table1.newRow || {}).password}}')",
