@@ -15,6 +15,7 @@
     },
     "pageId": "Page1",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "UPDATE User SET group_id= '{{Table1.updatedRow.group_id}}', Email= '{{Table1.updatedRow.Email}}', first_name= '{{Table1.updatedRow.first_name}}', middle_name= '{{Table1.updatedRow.middle_name}}', last_name= '{{Table1.updatedRow.last_name}}', password= '{{Table1.updatedRow.password}}' WHERE user_id= '{{Table1.updatedRow.user_id}}';",
