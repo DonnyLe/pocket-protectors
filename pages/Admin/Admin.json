@@ -36,11 +36,55 @@
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "Admin_agent_statsAgent",
+              "name": "agent_statsAgent",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "selectAgent.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Admin_completed_orders",
+              "name": "completed_orders",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "selectAgent.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Admin_select_work_ordersAgentPage",
+              "name": "select_work_ordersAgentPage",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "selectAgent.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "Admin_select_work_ordersPage",
               "name": "select_work_ordersPage",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Admin_select_work_ordersAgent",
+              "name": "select_work_ordersAgent",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                " workOrdersTable.pageSize ",
+                " (workOrdersTable.pageNo - 1) * workOrdersTable.pageSize ",
+                "selectAgent.selectedOptionValue"
+              ],
               "timeoutInMillisecond": 10000
             }
           ],
@@ -79,40 +123,6 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Admin_select_work_ordersAgent",
-              "name": "select_work_ordersAgent",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                " workOrdersTable.pageSize ",
-                " (workOrdersTable.pageNo - 1) * workOrdersTable.pageSize ",
-                "selectAgent.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Admin_agent_statsAgent",
-              "name": "agent_statsAgent",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "selectAgent.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Admin_completed_orders",
-              "name": "completed_orders",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "selectAgent.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "Admin_select_agent",
               "name": "select_agent",
               "confirmBeforeExecute": false,
@@ -128,16 +138,6 @@
               "jsonPathKeys": [
                 "(workOrdersTable.pageNo - 1) * workOrdersTable.pageSize ",
                 " workOrdersTable.pageSize "
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Admin_select_work_ordersAgentPage",
-              "name": "select_work_ordersAgentPage",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "selectAgent.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
             }
