@@ -1,0 +1,9 @@
+UPDATE work_orders
+SET request_date= {{editRequestedDate.formattedDate}}, 
+		agent={{editOrderAgent.selectedOptionValue}},
+		maintenance_notes= {{editNotes.text}},
+		completed= {{editCompleted.selectedOptionValue}},
+		total_cost= {{editTC.value}},
+		mat_cost= {{editMC.value}},
+		hours= {{editHoursUsed.text}}
+WHERE work_id={{workOrdersTable.triggeredRow.work_id}};

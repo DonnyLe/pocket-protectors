@@ -1,0 +1,1 @@
+SELECT equipment, COUNT(*) FROM work_orders WHERE agent= {{selectAgent.selectedOptionValue}} GROUP BY equipment;

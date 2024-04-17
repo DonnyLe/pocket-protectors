@@ -1,0 +1,160 @@
+{
+  "unpublishedPage": {
+    "name": "Admin",
+    "slug": "admin",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1160,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 1080,
+          "containerStyle": "none",
+          "snapRows": 66,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 89,
+          "minHeight": 670,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Admin_agent_stats",
+              "name": "agent_stats",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Admin_select_work_ordersPage",
+              "name": "select_work_ordersPage",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Admin_JSObject1.completedCalc",
+              "name": "JSObject1.completedCalc",
+              "collectionId": "Admin_JSObject1",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async () => {\n  await select_work_ordersPage.run();\n  await select_work_ordersAgentPage.run();\n  let count = 0;\n  if (selectAgent.selectedOptionValue.length == 0) count = select_work_ordersPage.data.filter(item => item.completed == \"Yes\").length; else count = select_work_ordersAgentPage.data.filter(item => item.completed == \"Yes\").length;\n  storeValue('completedCount', count);\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Admin_JSObject1.equipChart",
+              "name": "JSObject1.equipChart",
+              "collectionId": "Admin_JSObject1",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async () => {\n  await agent_stats.run();\n  await agent_statsAgent.run();\n  let chartData;\n  if (selectAgent.selectedOptionValue.length == 0) chartData = agent_stats.data.map(gen => {\n    return {\n      x: gen.equipment,\n      y: gen.count\n    };\n  }); else chartData = agent_statsAgent.data.map(gen => {\n    return {\n      x: gen.equipment,\n      y: gen.count\n    };\n  });\n  storeValue('equipmentStats', chartData);\n  console.log(appsmith.store.equipmentStats);\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Admin_JSObject1.totalHoursCalc",
+              "name": "JSObject1.totalHoursCalc",
+              "collectionId": "Admin_JSObject1",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async () => {\n  let sum = 0;\n  if (selectAgent.selectedOptionValue.length == 0) sum = select_work_ordersPage.data.reduce((accumulator, object) => {\n    return accumulator + object.hours;\n  }, 0); else sum = select_work_ordersAgentPage.data.reduce((accumulator, object) => {\n    return accumulator + object.hours;\n  }, 0);\n  storeValue('hoursSum', sum);\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Admin_select_work_ordersAgent",
+              "name": "select_work_ordersAgent",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                " workOrdersTable.pageSize ",
+                " (workOrdersTable.pageNo - 1) * workOrdersTable.pageSize ",
+                "selectAgent.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Admin_agent_statsAgent",
+              "name": "agent_statsAgent",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "selectAgent.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Admin_completed_orders",
+              "name": "completed_orders",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "selectAgent.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Admin_select_agent",
+              "name": "select_agent",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Admin_select_work_orders",
+              "name": "select_work_orders",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "(workOrdersTable.pageNo - 1) * workOrdersTable.pageSize ",
+                " workOrdersTable.pageSize "
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Admin_select_work_ordersAgentPage",
+              "name": "select_work_ordersAgentPage",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "selectAgent.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Admin",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": true
+  },
+  "deleted": false,
+  "gitSyncId": "661ee4b0a0055206dc92658b_661fce2d52618679f684ec54"
+}

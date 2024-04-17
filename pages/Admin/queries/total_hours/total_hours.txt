@@ -1,0 +1,1 @@
+SELECT SUM(hours) FROM work_orders where agent={{selectAgent.selectedOptionLabel}};

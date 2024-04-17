@@ -1,0 +1,1 @@
+SELECT equipment, COUNT(*) FROM work_orders GROUP BY equipment;

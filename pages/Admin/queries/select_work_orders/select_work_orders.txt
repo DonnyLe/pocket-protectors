@@ -1,0 +1,1 @@
+select * from work_orders limit {{ workOrdersTable.pageSize }} offset {{(workOrdersTable.pageNo - 1) * workOrdersTable.pageSize }};

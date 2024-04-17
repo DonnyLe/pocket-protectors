@@ -1,0 +1,11 @@
+INSERT INTO work_orders
+	( work_id,equipment,category,description,request_date,customer_name,customer_email) values
+	(
+		{{workid.text}},
+		{{equipment_select.selectedOptionValue}},
+		{{category_select.selectedOptionValue}},
+		{{desc_input.text}},
+		{{date_pick.formattedDate}},
+		{{name_input.text}},
+		{{email_input.text}}
+	);
