@@ -30,7 +30,7 @@
         {"key": "primaryColumns.EditActions1.isDiscardDisabled"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 23,
+    "leftColumn": 6,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "showInlineEditingOptionDropdown": true,
@@ -375,7 +375,7 @@
     "key": "hxfa9ntzdy",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 64,
+    "rightColumn": 47,
     "textSize": "0.875rem",
     "widgetId": "skizmbtzpv",
     "allowAddNewRow": true,
