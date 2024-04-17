@@ -14,7 +14,6 @@
         {"key": "accentColor"},
         {"key": "borderRadius"},
         {"key": "boxShadow"},
-        {"key": "tableData"},
         {"key": "totalRecordsCount"},
         {"key": "primaryColumns.user_id.computedValue"},
         {"key": "primaryColumns.group_id.computedValue"},
@@ -27,7 +26,8 @@
         {"key": "primaryColumns.EditActions1.saveBorderRadius"},
         {"key": "primaryColumns.EditActions1.discardBorderRadius"},
         {"key": "primaryColumns.EditActions1.isSaveDisabled"},
-        {"key": "primaryColumns.EditActions1.isDiscardDisabled"}
+        {"key": "primaryColumns.EditActions1.isDiscardDisabled"},
+        {"key": "tableData"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 6,
@@ -380,7 +380,7 @@
     "widgetId": "skizmbtzpv",
     "allowAddNewRow": true,
     "minWidth": 450,
-    "tableData": "{{Select_User1.data}}",
+    "tableData": "{{Get_Users.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "0",
