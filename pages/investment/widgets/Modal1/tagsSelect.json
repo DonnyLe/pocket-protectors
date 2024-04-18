@@ -41,7 +41,7 @@
     "parentColumnSpace": 9.8125,
     "dynamicTriggerPathList": [{"key": "onOptionChange"}],
     "labelPosition": "Left",
-    "sourceData": "{{get_all_tags_from_user.data.map( p => ({label: p.tag_name, value: p.tag_id}))}}\n\n\n",
+    "sourceData": "{{stock_name.data.map( p => ({label: p.tag_name, value: p.tag_id}))}}\n\n\n",
     "key": "kl8z5xmmjz",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,

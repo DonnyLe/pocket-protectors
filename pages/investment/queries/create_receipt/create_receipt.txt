@@ -1,8 +1,0 @@
-{{{category_id: categorySelect.selectedOptionValue, 
- store_id: storeSelect.selectedOptionValue,
-	tag_id: tagsSelect.selectedOptionValue,
-	 date: receiptDate.formattedDate,
-	 total_amount: 0
-	 
-	}
-}}

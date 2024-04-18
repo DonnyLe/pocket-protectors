@@ -88,7 +88,7 @@
     "currentItemsView": "{{[]}}",
     "triggeredItemView": "{{{}}}",
     "widgetName": "List1",
-    "listData": "{{get_all_receipts_from_user.data.map((user) => {\n  return {\n\t\treceipt_id: user.receipt_id,\n    total_amount: user.total_amount,\n    date: user.date\n    };\n  });\n}}",
+    "listData": "{{update_investment.data.map((user) => {\n  return {\n\t\treceipt_id: user.receipt_id,\n    total_amount: user.total_amount,\n    date: user.date\n    };\n  });\n}}",
     "displayName": "List",
     "bottomRow": 69,
     "parentRowSpace": 10,

@@ -1,6 +1,7 @@
 {
     "boxShadow": "none",
     "iconSVG": "/static/media/icon.f2c34197dbcf03595098986de898928f.svg",
+    "onSubmit": "{{}}",
     "topRow": 7,
     "labelWidth": "12",
     "type": "INPUT_WIDGET_V2",
@@ -29,6 +30,7 @@
     "needsErrorInfo": false,
     "mobileBottomRow": 7,
     "widgetName": "Input2",
+    "dynamicPropertyPathList": [],
     "displayName": "Input",
     "searchTags": [
         "form",

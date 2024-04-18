@@ -1,3 +1,0 @@
-{{{unit_cost: CurrencyInput1.value, 
-	 quantity: Input1.value,
-	 item_name: Input1Copy.text}}}
