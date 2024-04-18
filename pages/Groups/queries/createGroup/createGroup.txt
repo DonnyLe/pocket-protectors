@@ -1,4 +1,4 @@
 {{{
   // "key": "value",
-  group_name: Name_input.text
+  "group_name": Name_input.text
 }}}
