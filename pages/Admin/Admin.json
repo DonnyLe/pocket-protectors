@@ -33,9 +33,7 @@
               "collectionId": "Admin_JSObject1",
               "confirmBeforeExecute": false,
               "pluginType": "JS",
-              "jsonPathKeys": [
-                "async () => {\n  await select_work_ordersPage.run();\n  await select_work_ordersAgentPage.run();\n  let count = 0;\n  if (selectAgent.selectedOptionValue.length == 0) count = select_work_ordersPage.data.filter(item => item.completed == \"Yes\").length; else count = select_work_ordersAgentPage.data.filter(item => item.completed == \"Yes\").length;\n  storeValue('completedCount', count);\n}"
-              ],
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             },
             {
@@ -44,9 +42,7 @@
               "collectionId": "Admin_JSObject1",
               "confirmBeforeExecute": false,
               "pluginType": "JS",
-              "jsonPathKeys": [
-                "async () => {\n  await agent_stats.run();\n  await agent_statsAgent.run();\n  let chartData;\n  if (selectAgent.selectedOptionValue.length == 0) chartData = agent_stats.data.map(gen => {\n    return {\n      x: gen.equipment,\n      y: gen.count\n    };\n  }); else chartData = agent_statsAgent.data.map(gen => {\n    return {\n      x: gen.equipment,\n      y: gen.count\n    };\n  });\n  storeValue('equipmentStats', chartData);\n  console.log(appsmith.store.equipmentStats);\n}"
-              ],
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             },
             {
@@ -55,9 +51,7 @@
               "collectionId": "Admin_JSObject1",
               "confirmBeforeExecute": false,
               "pluginType": "JS",
-              "jsonPathKeys": [
-                "async () => {\n  let sum = 0;\n  if (selectAgent.selectedOptionValue.length == 0) sum = select_work_ordersPage.data.reduce((accumulator, object) => {\n    return accumulator + object.hours;\n  }, 0); else sum = select_work_ordersAgentPage.data.reduce((accumulator, object) => {\n    return accumulator + object.hours;\n  }, 0);\n  storeValue('hoursSum', sum);\n}"
-              ],
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ]
