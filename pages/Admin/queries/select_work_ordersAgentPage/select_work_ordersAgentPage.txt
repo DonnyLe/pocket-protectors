@@ -1,1 +1,0 @@
-select * from work_orders where agent = {{selectAgent.selectedOptionValue}};

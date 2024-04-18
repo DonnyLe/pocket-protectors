@@ -21,7 +21,7 @@
     "dynamicBindingPathList": [{"key": "fontFamily"}],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Select an order to view more details",
+    "text": "Control what you get notified for",
     "key": "p0uhc3c013",
     "isDeprecated": false,
     "rightColumn": 45,

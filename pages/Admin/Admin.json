@@ -28,68 +28,6 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Admin_agent_stats",
-              "name": "agent_stats",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Admin_agent_statsAgent",
-              "name": "agent_statsAgent",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "selectAgent.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Admin_completed_orders",
-              "name": "completed_orders",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "selectAgent.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Admin_select_work_ordersAgentPage",
-              "name": "select_work_ordersAgentPage",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "selectAgent.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Admin_select_work_ordersPage",
-              "name": "select_work_ordersPage",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Admin_select_work_ordersAgent",
-              "name": "select_work_ordersAgent",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                " workOrdersTable.pageSize ",
-                " (workOrdersTable.pageNo - 1) * workOrdersTable.pageSize ",
-                "selectAgent.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
               "id": "Admin_JSObject1.completedCalc",
               "name": "JSObject1.completedCalc",
               "collectionId": "Admin_JSObject1",
@@ -119,25 +57,6 @@
               "pluginType": "JS",
               "jsonPathKeys": [
                 "async () => {\n  let sum = 0;\n  if (selectAgent.selectedOptionValue.length == 0) sum = select_work_ordersPage.data.reduce((accumulator, object) => {\n    return accumulator + object.hours;\n  }, 0); else sum = select_work_ordersAgentPage.data.reduce((accumulator, object) => {\n    return accumulator + object.hours;\n  }, 0);\n  storeValue('hoursSum', sum);\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Admin_select_agent",
-              "name": "select_agent",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Admin_select_work_orders",
-              "name": "select_work_orders",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "(workOrdersTable.pageNo - 1) * workOrdersTable.pageSize ",
-                " workOrdersTable.pageSize "
               ],
               "timeoutInMillisecond": 10000
             }

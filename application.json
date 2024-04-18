@@ -6,7 +6,7 @@
     },
     {
       "id": "Home Page",
-      "isDefault": false
+      "isDefault": true
     },
     {
       "id": "Admin",
@@ -15,10 +15,6 @@
     {
       "id": "My orders",
       "isDefault": false
-    },
-    {
-      "id": "Blank",
-      "isDefault": true
     }
   ],
   "viewMode": false,
