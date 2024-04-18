@@ -31,6 +31,9 @@
   },
   "color": "#C7F3E3",
   "icon": "airplane",
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,

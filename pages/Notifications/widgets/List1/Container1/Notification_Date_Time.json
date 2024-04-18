@@ -2,7 +2,7 @@
     "needsErrorInfo": false,
     "boxShadow": "none",
     "mobileBottomRow": 4,
-    "widgetName": "Text1",
+    "widgetName": "Notification_Date_Time",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -26,10 +26,10 @@
         {"key": "borderRadius"},
         {"key": "text"}
     ],
-    "leftColumn": 16,
+    "leftColumn": 0,
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{\"Notification time: \" + currentItem.notification_time + \", \" + currentItem.notification_date}}",
+    "text": "{{\"Notification Details: \" + currentItem.notification_time + \", \" + currentItem.notification_date + \", \" + currentItem.repeat}}",
     "key": "ycad0nru29",
     "isDeprecated": false,
     "rightColumn": 64,
