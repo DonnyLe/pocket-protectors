@@ -5,7 +5,7 @@ export default {
 		let totalSum = 0;
 
 		// Iterate through each transaction and accumulate the total cost
-		get_all_transactions.data.forEach(transaction => {
+		get_transactions.data.forEach(transaction => {
 			// Calculate the cost for the current transaction
 			const transactionCost = transaction.unit_cost * transaction.quantity;
 

@@ -21,6 +21,7 @@
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisible": true,
     "version": 1,
+    "onDropdownOpen": "{{get_all_tags_from_user.run()}}",
     "tags": [
         "Suggested",
         "Select"
@@ -39,7 +40,10 @@
     "hideCard": false,
     "mobileRightColumn": 25,
     "parentColumnSpace": 9.8125,
-    "dynamicTriggerPathList": [{"key": "onOptionChange"}],
+    "dynamicTriggerPathList": [
+        {"key": "onOptionChange"},
+        {"key": "onDropdownOpen"}
+    ],
     "labelPosition": "Top",
     "sourceData": "{{get_all_tags_from_user.data.map( p => ({label: p.tag_name, value: p.tag_id}))}}\n\n\n",
     "key": "kl8z5xmmjz",
