@@ -5,6 +5,7 @@
     "mobileBottomRow": 37,
     "widgetName": "Button1",
     "onClick": "{{all_users.run().then(() => {\n  JSObject1.Button1onClick();\n  navigateTo('Dashboard', {}, 'SAME_WINDOW');\n}).catch(() => {});}}",
+
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
