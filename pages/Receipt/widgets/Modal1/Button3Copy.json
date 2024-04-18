@@ -4,7 +4,7 @@
     "widgetName": "Button3Copy",
     "onClick": "{{create_receipt.run()}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [{"key": "onClick"}],
+    "dynamicPropertyPathList": [],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
     "searchTags": [
