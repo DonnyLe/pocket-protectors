@@ -28,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "ListOfTransactions_get_all_transactions",
-              "name": "get_all_transactions",
+              "id": "ListOfTransactions_get_transactions",
+              "name": "get_transactions",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [

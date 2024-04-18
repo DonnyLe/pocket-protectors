@@ -21,7 +21,7 @@
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisible": true,
     "version": 1,
-    "onDropdownOpen": "",
+    "onDropdownOpen": "{{get_all_categories.run()}}",
     "tags": [
         "Suggested",
         "Select"

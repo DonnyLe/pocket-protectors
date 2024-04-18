@@ -26,7 +26,7 @@
         {"key": "buttonColor"},
         {"key": "borderRadius"}
     ],
-    "text": "Submit",
+    "text": "Update Receipt Total",
     "isDisabled": false,
     "key": "wkmzjq7gf7",
     "isDeprecated": false,
