@@ -5,7 +5,11 @@
       "isDefault": true
     },
     {
-      "id": "Page3",
+      "id": "Receipt",
+      "isDefault": false
+    },
+    {
+      "id": "Login",
       "isDefault": false
     }
   ],

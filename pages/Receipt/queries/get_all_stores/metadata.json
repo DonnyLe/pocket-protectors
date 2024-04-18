@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page3",
+    "pageId": "Receipt",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -50,7 +50,7 @@
     "userPermissions": [],
     "createdAt": "2024-04-18T03:12:22Z"
   },
-  "id": "Page3_get_all_stores",
+  "id": "Receipt_get_all_stores",
   "deleted": false,
   "gitSyncId": "662086b53a758e0207fcf369_66208f963a758e0207fcf378"
 }
