@@ -15,6 +15,10 @@
     {
       "id": "ListOfTransactions",
       "isDefault": false
+    },
+    {
+      "id": "Investments",
+      "isDefault": false
     }
   ],
   "viewMode": false,
