@@ -1,6 +1,6 @@
 {
     "boxShadow": "none",
-    "widgetName": "Text2CopyCopyCopyCopy1Copy",
+    "widgetName": "Text2CopyCopyCopyCopy1CopyCopy1",
     "dynamicPropertyPathList": [],
     "displayName": "Text",
     "iconSVG": "/static/media/icon.97c59b52.svg",
@@ -21,7 +21,7 @@
     "rightColumn": 10,
     "textAlign": "LEFT",
     "dynamicHeight": "FIXED",
-    "widgetId": "p3kew513gl",
+    "widgetId": "f9jlznhd91",
     "logBlackList": {
         "widgetName": true,
         "isCanvas": true,
@@ -60,7 +60,7 @@
     "fontStyle": "",
     "textColor": "#231F20",
     "version": 1,
-    "parentId": "0wndd7ct22",
+    "parentId": "8hm5v7n0jt",
     "renderMode": "CANVAS",
     "isLoading": false,
     "borderRadius": "0px",

@@ -28,21 +28,19 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Receipt_get_all_stores",
-              "name": "get_all_stores",
+              "id": "Receipt_get_all_categories",
+              "name": "get_all_categories",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Receipt_get_all_tags_for_user",
-              "name": "get_all_tags_for_user",
+              "id": "Receipt_get_all_stores",
+              "name": "get_all_stores",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.user_id"
-              ],
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ]

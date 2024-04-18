@@ -2,7 +2,7 @@
     "resetFormOnClick": false,
     "boxShadow": "none",
     "widgetName": "Button2",
-    "onClick": "{{navigateTo('Home Page', {}, 'SAME_WINDOW')}}",
+    "onClick": "{{navigateTo('Dashboard', {}, 'SAME_WINDOW');}}",
     "buttonColor": "transparent",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
