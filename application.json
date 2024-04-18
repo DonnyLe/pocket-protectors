@@ -1,8 +1,12 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Log_In",
       "isDefault": true
+    },
+    {
+      "id": "Groups",
+      "isDefault": false
     }
   ],
   "viewMode": false,
