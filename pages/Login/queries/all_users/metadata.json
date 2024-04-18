@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "all_users",
+    "name": "Get_Users",
     "fullyQualifiedName": "all_users",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
