@@ -1,26 +1,26 @@
 {
   "unpublishedPage": {
-    "name": "Admin",
-    "slug": "admin",
+    "name": "investment",
+    "slug": "investment",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1160,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1080,
+          "bottomRow": 1100,
           "containerStyle": "none",
-          "snapRows": 66,
+          "snapRows": 74,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 89,
-          "minHeight": 670,
+          "minHeight": 760,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -28,18 +28,30 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Admin_categories",
-              "name": "categories",
+              "id": "investment_get_all_receipts_from_user",
+              "name": "get_all_receipts_from_user",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "appsmith.store.user_id"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "investment_get_all_tags_from_user",
+              "name": "get_all_tags_from_user",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.user_id"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Admin",
+        "id": "investment",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -47,8 +59,8 @@
     ],
     "userPermissions": [],
     "policies": [],
-    "isHidden": true
+    "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "661ee4b0a0055206dc92658b_661fce2d52618679f684ec54"
+  "gitSyncId": "66208e710e0d1c1635c20f2e_6620bf200e0d1c1635c21005"
 }

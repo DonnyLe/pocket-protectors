@@ -1,10 +1,6 @@
 {
   "pages": [
     {
-      "id": "Submit new order",
-      "isDefault": false
-    },
-    {
       "id": "Home Page",
       "isDefault": true
     },
@@ -14,6 +10,14 @@
     },
     {
       "id": "My orders",
+      "isDefault": false
+    },
+    {
+      "id": "donny_edit",
+      "isDefault": false
+    },
+    {
+      "id": "investment",
       "isDefault": false
     }
   ],
