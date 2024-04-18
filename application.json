@@ -1,11 +1,11 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Dashboard",
       "isDefault": true
     },
     {
-      "id": "Dashboard",
+      "id": "Page3",
       "isDefault": false
     }
   ],

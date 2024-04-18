@@ -1,27 +1,26 @@
 {
   "unpublishedPage": {
-    "name": "Dashboard",
-    "slug": "dashboard",
+    "name": "Page3",
+    "slug": "page3",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 990,
+          "bottomRow": 2430,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 92,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 89,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 940,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -29,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Dashboard_Get_Users",
-              "name": "Get_Users",
+              "id": "Page3_get_all_stores",
+              "name": "get_all_stores",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
@@ -40,16 +39,15 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Dashboard",
+        "id": "Page3",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": [],
-    "isHidden": false
+    "policies": []
   },
   "deleted": false,
-  "gitSyncId": "6619b8bb1ad31f6b23f74454_6619b8bb1ad31f6b23f74456"
+  "gitSyncId": "662086b53a758e0207fcf369_662089de3a758e0207fcf374"
 }
