@@ -102,7 +102,7 @@
     "key": "byhy5z8cll",
     "backgroundColor": "transparent",
     "isDeprecated": false,
-    "rightColumn": 55,
+    "rightColumn": 51,
     "widgetId": "ifwn5w8ivm",
     "minWidth": 450,
     "onItemClick": "{{showModal('Modal1');}}",

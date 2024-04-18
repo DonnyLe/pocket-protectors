@@ -5,7 +5,7 @@
     "templateHeight": 160,
     "iconSVG": "/static/media/icon.5c9511142b3624c7491c5442e8ccd0ef.svg",
     "topRow": 0,
-    "pageSize": 7,
+    "pageSize": 3,
     "type": "LIST_WIDGET_V2",
     "itemSpacing": 8,
     "animateLoading": true,
@@ -16,7 +16,8 @@
         {"key": "primaryKeys"},
         {"key": "accentColor"},
         {"key": "borderRadius"},
-        {"key": "boxShadow"}
+        {"key": "boxShadow"},
+        {"key": "listData"}
     ],
     "leftColumn": 15,
     "enhancements": true,
@@ -87,32 +88,16 @@
     "currentItemsView": "{{[]}}",
     "triggeredItemView": "{{{}}}",
     "widgetName": "List1",
-    "listData": [
-        {
-            "img": "https://assets.appsmith.com/widgets/default.png",
-            "name": "Blue",
-            "id": "001"
-        },
-        {
-            "img": "https://assets.appsmith.com/widgets/default.png",
-            "name": "Green",
-            "id": "002"
-        },
-        {
-            "img": "https://assets.appsmith.com/widgets/default.png",
-            "name": "Red",
-            "id": "003"
-        }
-    ],
+    "listData": "{{Get_User_Notifications.data.map((notifications) => {\n  return {\n\t\tnotification_id: notifications.notification_id,\n\t\trepeat: notifications.repeat,\n    notification_time: notifications.notification_time,\n    notification_date: notifications.notification_date,\n\t\tmessage: notifications.message, \n\t\tuser_id: notifications.user_id, \n\t\tbudget_id: notifications.budget_id\n    };\n  });\n}}\n",
     "displayName": "List",
     "bottomRow": 95,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 39,
     "mainContainerId": "l447o3oozx",
-    "primaryKeys": "{{List1.listData.map((currentItem, currentIndex) => currentItem[\"id\"] )}}",
+    "primaryKeys": "{{List1.listData.map((currentItem, currentIndex) => currentItem[\"notification_id\"] )}}",
     "parentColumnSpace": 16.234375,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onItemClick"}],
     "gridType": "vertical",
     "key": "zd2y9gp0lb",
     "backgroundColor": "transparent",
@@ -120,6 +105,7 @@
     "rightColumn": 49,
     "widgetId": "eamesaufi3",
     "minWidth": 450,
+    "onItemClick": "{{showModal('Modal1');}}",
     "parentId": "0",
     "renderMode": "CANVAS",
     "mobileTopRow": 0,
