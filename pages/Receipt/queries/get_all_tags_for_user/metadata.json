@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Api1",
+    "name": "get_all_tags_for_user",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -39,7 +39,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
         "key": "path"
@@ -57,7 +57,7 @@
     "userPermissions": [],
     "createdAt": "2024-04-18T03:22:24Z"
   },
-  "id": "Receipt_Api1",
+  "id": "Receipt_get_all_tags_for_user",
   "deleted": false,
   "gitSyncId": "662086b53a758e0207fcf369_662091f03a758e0207fcf37b"
 }

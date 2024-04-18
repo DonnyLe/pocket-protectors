@@ -41,7 +41,7 @@
     "parentColumnSpace": 9.8125,
     "dynamicTriggerPathList": [],
     "labelPosition": "Top",
-    "sourceData": "{{get_all_stores.data.map( p => ({label: p.store_name, value: p.store_id}))}}\n\n\n",
+    "sourceData": "{{get_all_tags_for_user.data.map( p => ({label: p.tag_name, value: p.tag_id}))}}\n\n\n",
     "key": "kl8z5xmmjz",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
