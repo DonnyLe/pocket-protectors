@@ -11,6 +11,10 @@
     {
       "id": "Login",
       "isDefault": false
+    },
+    {
+      "id": "ListOfTransactions",
+      "isDefault": false
     }
   ],
   "viewMode": false,
