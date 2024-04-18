@@ -2,7 +2,7 @@
     "resetFormOnClick": true,
     "boxShadow": "none",
     "widgetName": "Button3",
-    "onClick": "{{insert_work_orders.run(() => select_work_orders.run(() => navigateTo(\"Success page\"),()=>{}), () =>{})}}\n",
+    "onClick": "\n",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",

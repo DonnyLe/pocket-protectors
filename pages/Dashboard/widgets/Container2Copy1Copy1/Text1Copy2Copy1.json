@@ -20,11 +20,10 @@
     "leftColumn": 1,
     "dynamicBindingPathList": [
         {"key": "fontFamily"},
-        {"key": "borderRadius"},
-        {"key": "text"}
+        {"key": "borderRadius"}
     ],
     "shouldTruncate": false,
-    "text": "{{getWorkOrders.data.length}}",
+    "text": "",
     "key": "8ao8442ejy",
     "isDeprecated": false,
     "rightColumn": 48,

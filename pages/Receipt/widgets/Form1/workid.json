@@ -14,10 +14,7 @@
     "dynamicTriggerPathList": [],
     "resetOnSubmit": true,
     "leftColumn": 12,
-    "dynamicBindingPathList": [
-        {"key": "defaultText"},
-        {"key": "accentColor"}
-    ],
+    "dynamicBindingPathList": [{"key": "accentColor"}],
     "labelStyle": "",
     "inputType": "TEXT",
     "placeholderText": "John",
@@ -38,6 +35,6 @@
     "borderRadius": "0.375rem",
     "maxDynamicHeight": 9000,
     "iconAlign": "left",
-    "defaultText": "{{JSObject1.randomWorkID()}}",
+    "defaultText": "",
     "minDynamicHeight": 4
 }
