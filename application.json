@@ -2,7 +2,7 @@
   "pages": [
     {
       "id": "Dashboard",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "Receipt",
@@ -10,6 +10,10 @@
     },
     {
       "id": "Login",
+      "isDefault": true
+    },
+    {
+      "id": "ListOfTransactions",
       "isDefault": false
     }
   ],

@@ -2,13 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "all_users",
-    "fullyQualifiedName": "all_users",
+    "name": "get_all_categories",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/users"
+        "url": "web:4000/descriptors/categories"
       },
       "invalids": [],
       "messages": [],
@@ -17,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Login",
+    "pageId": "Receipt",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -40,8 +39,12 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "executeOnLoad": true,
+    "dynamicBindingPathList": [
+      {
+        "key": "path"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
@@ -50,9 +53,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-18T03:34:36Z"
+    "createdAt": "2024-04-18T04:21:21Z"
   },
-  "id": "Login_all_users",
+  "id": "Receipt_get_all_categories",
   "deleted": false,
-  "gitSyncId": "662086b53a758e0207fcf369_662094cc3a758e0207fcf387"
+  "gitSyncId": "662086b53a758e0207fcf369_66209fc13a758e0207fcf397"
 }
