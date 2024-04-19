@@ -5,7 +5,7 @@
     "mobileBottomRow": 22,
     "widgetName": "Button2",
     "onClick": "{{JSObject1.createOrJoin();}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonColor": "#324479",
     "dynamicPropertyPathList": [],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
@@ -21,10 +21,7 @@
     "animateLoading": true,
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 47,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
+    "dynamicBindingPathList": [{"key": "borderRadius"}],
     "text": "Confirm",
     "isDisabled": false,
     "key": "1qv9t6uv7i",

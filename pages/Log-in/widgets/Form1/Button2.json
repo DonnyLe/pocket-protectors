@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 37,
     "widgetName": "Button2",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonColor": "#1e3a8a",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [
@@ -17,11 +17,9 @@
     "hideCard": false,
     "mobileRightColumn": 46,
     "animateLoading": true,
+    "dynamicTriggerPathList": [],
     "leftColumn": 21,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
+    "dynamicBindingPathList": [{"key": "borderRadius"}],
     "text": "Reset",
     "isDisabled": false,
     "key": "c1pkvgnnse",

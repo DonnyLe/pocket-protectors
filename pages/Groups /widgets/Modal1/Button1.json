@@ -5,7 +5,7 @@
     "mobileBottomRow": 22,
     "widgetName": "Button1",
     "onClick": "{{closeModal('Modal1')}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonColor": "#324479",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [
@@ -18,11 +18,9 @@
     "hideCard": false,
     "mobileRightColumn": 47,
     "animateLoading": true,
+    "dynamicTriggerPathList": [],
     "leftColumn": 31,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
+    "dynamicBindingPathList": [{"key": "borderRadius"}],
     "text": "Close",
     "isDisabled": false,
     "key": "1qv9t6uv7i",

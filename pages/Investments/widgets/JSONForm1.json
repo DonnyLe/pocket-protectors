@@ -10,9 +10,7 @@
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"},
-        {"key": "submitButtonStyles.buttonColor"},
         {"key": "submitButtonStyles.borderRadius"},
-        {"key": "resetButtonStyles.buttonColor"},
         {"key": "resetButtonStyles.borderRadius"},
         {"key": "schema.__root_schema__.children.customField1.accentColor"},
         {"key": "schema.__root_schema__.children.customField1.borderRadius"},
@@ -29,7 +27,7 @@
     "resetButtonStyles": {
         "boxShadow": "none",
         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-        "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+        "buttonColor": "#324479",
         "buttonVariant": "SECONDARY"
     },
     "isVisible": true,
@@ -214,7 +212,7 @@
     "submitButtonStyles": {
         "boxShadow": "none",
         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-        "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+        "buttonColor": "#324479",
         "buttonVariant": "PRIMARY"
     },
     "dynamicPropertyPathList": [{"key": "sourceData"}],

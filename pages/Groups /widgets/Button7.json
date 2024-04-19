@@ -5,7 +5,7 @@
     "mobileBottomRow": 55,
     "widgetName": "Button7",
     "onClick": "{{showModal('Modal1');}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonColor": "#324479",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [
@@ -22,10 +22,7 @@
     "parentColumnSpace": 17.9375,
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 23,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
+    "dynamicBindingPathList": [{"key": "borderRadius"}],
     "text": "Add Group",
     "isDisabled": false,
     "key": "a9bsmazifk",

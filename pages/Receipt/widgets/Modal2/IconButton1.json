@@ -4,7 +4,7 @@
     "mobileBottomRow": 4,
     "widgetName": "IconButton1",
     "onClick": "{{closeModal('Modal2')}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonColor": "#324479",
     "displayName": "Icon button",
     "iconSVG": "/static/media/icon.b08054586989b185a0801e9a34f8ad49.svg",
     "searchTags": [
@@ -17,11 +17,9 @@
     "hideCard": false,
     "mobileRightColumn": 64,
     "animateLoading": true,
+    "dynamicTriggerPathList": [],
     "leftColumn": 58,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
+    "dynamicBindingPathList": [{"key": "borderRadius"}],
     "iconSize": 24,
     "isDisabled": false,
     "key": "khfktzvsf4",

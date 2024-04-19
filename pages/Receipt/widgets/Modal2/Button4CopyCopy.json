@@ -2,7 +2,7 @@
     "resetFormOnClick": true,
     "boxShadow": "none",
     "widgetName": "Button4CopyCopy",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonColor": "#324479",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
     "searchTags": [
@@ -16,7 +16,7 @@
     "animateLoading": true,
     "dynamicTriggerPathList": [],
     "leftColumn": 30,
-    "dynamicBindingPathList": [{"key": "buttonColor"}],
+    "dynamicBindingPathList": [],
     "text": "Reset",
     "isDisabled": false,
     "key": "39z78os9vu",

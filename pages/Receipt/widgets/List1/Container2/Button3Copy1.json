@@ -5,7 +5,7 @@
     "mobileBottomRow": 35,
     "widgetName": "Button3Copy1",
     "onClick": "{{showModal('Modal2');}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonColor": "#324479",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [
@@ -22,10 +22,7 @@
     "parentColumnSpace": 13.5,
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 38,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
+    "dynamicBindingPathList": [{"key": "borderRadius"}],
     "text": "Add transaction\n",
     "isDisabled": false,
     "key": "wkmzjq7gf7",
