@@ -12,8 +12,8 @@
         "click",
         "submit"
     ],
-    "topRow": 14,
-    "bottomRow": 18,
+    "topRow": 3,
+    "bottomRow": 7,
     "parentRowSpace": 10,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
@@ -21,7 +21,7 @@
     "animateLoading": true,
     "parentColumnSpace": 13.5,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 29,
+    "leftColumn": 19,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -37,7 +37,7 @@
     "isVisible": true,
     "recaptchaType": "V3",
     "version": 1,
-    "parentId": "0",
+    "parentId": "h371vm9lht",
     "tags": ["Buttons"],
     "renderMode": "CANVAS",
     "isLoading": false,

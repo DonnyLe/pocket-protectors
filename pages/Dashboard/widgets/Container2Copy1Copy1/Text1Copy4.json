@@ -18,10 +18,7 @@
     "parentColumnSpace": 4.3310546875,
     "dynamicTriggerPathList": [],
     "leftColumn": 1,
-    "dynamicBindingPathList": [
-        {"key": "fontFamily"},
-        {"key": "borderRadius"}
-    ],
+    "dynamicBindingPathList": [{"key": "fontFamily"}],
     "shouldTruncate": false,
     "text": "Total Expenses",
     "key": "8ao8442ejy",

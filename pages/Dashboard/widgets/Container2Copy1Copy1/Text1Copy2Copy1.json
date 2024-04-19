@@ -19,9 +19,8 @@
     "dynamicTriggerPathList": [],
     "leftColumn": 6,
     "dynamicBindingPathList": [
-        {"key": "fontFamily"},
-        {"key": "borderRadius"},
-        {"key": "text"}
+        {"key": "text"},
+        {"key": "fontFamily"}
     ],
     "shouldTruncate": false,
     "text": "{{'$'+ JSObject1.getTotalExpenses()}}",

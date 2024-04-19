@@ -23,10 +23,7 @@
     "parentColumnSpace": 19.8125,
     "dynamicTriggerPathList": [],
     "leftColumn": 15,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "fontFamily"}
-    ],
+    "dynamicBindingPathList": [],
     "customFusionChartConfig": {
         "type": "column2d",
         "dataSource": {

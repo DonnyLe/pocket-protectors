@@ -33,10 +33,7 @@
         "minHeight": 980,
         "parentColumnSpace": 1,
         "leftColumn": 0,
-        "dynamicBindingPathList": [
-            {"key": "borderRadius"},
-            {"key": "accentColor"}
-        ],
+        "dynamicBindingPathList": [{"key": "borderRadius"}],
         "key": "ok1ci5kt2b",
         "isDeprecated": false,
         "rightColumn": 475.5,
