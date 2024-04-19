@@ -3,7 +3,7 @@
   "pluginId": "js-plugin",
   "unpublishedAction": {
     "name": "Button1onClick",
-    "fullyQualifiedName": "JSObject1.Button1onClick",
+    "fullyQualifiedName": "LoginData.Button1onClick",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,7 +14,7 @@
       "userPermissions": []
     },
     "pageId": "Log-in",
-    "collectionId": "Log-in_JSObject1",
+    "collectionId": "Log-in_LoginData",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -37,7 +37,7 @@
     "userPermissions": [],
     "createdAt": "2024-04-19T03:14:07Z"
   },
-  "id": "Log-in_JSObject1.Button1onClick",
+  "id": "Log-in_LoginData.Button1onClick",
   "deleted": false,
   "gitSyncId": "661ee6324348397a7bbb4732_6621e17fc323b854319a39ce"
 }

@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "Button6",
-    "onClick": "{{JSObject2.Button1onClick();\naddToGroup.run()}}",
+    "onClick": "{{JSObject2.Button1onClick();\naddToGroup.run().then(() => {\n  closeModal('');\n  getAllGroupMembers.run();\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",

@@ -1,6 +1,6 @@
 {
   "unpublishedCollection": {
-    "name": "JSObject1",
+    "name": "LoginData",
     "pageId": "Log-in",
     "pluginId": "js-plugin",
     "pluginType": "JS",
@@ -9,7 +9,7 @@
     "variables": [],
     "userPermissions": []
   },
-  "id": "Log-in_JSObject1",
+  "id": "Log-in_LoginData",
   "deleted": false,
   "gitSyncId": "661ee6324348397a7bbb4732_6621e17fc323b854319a39cd"
 }

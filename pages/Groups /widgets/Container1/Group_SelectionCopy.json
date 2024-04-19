@@ -1,7 +1,7 @@
 {
     "needsErrorInfo": false,
     "mobileBottomRow": 5,
-    "widgetName": "Group_Selection",
+    "widgetName": "Group_SelectionCopy",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -26,19 +26,19 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Get ready for a group!",
+    "text": "Not in a group yet? Let's fix that!",
     "key": "wfyul6fta2",
     "isDeprecated": false,
     "rightColumn": 41,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "5epn674z5u",
+    "widgetId": "rfvg7m73ig",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
     "textColor": "#231F20",
     "version": 1,
-    "parentId": "rlqfrhoifq",
+    "parentId": "pqda2btmvs",
     "tags": [
         "Suggested",
         "Content"

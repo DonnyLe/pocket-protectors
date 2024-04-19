@@ -17,7 +17,7 @@
     "hideCard": false,
     "mobileRightColumn": 64,
     "animateLoading": true,
-    "leftColumn": 58,
+    "leftColumn": 57,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -26,7 +26,7 @@
     "isDisabled": false,
     "key": "n0ojaviau3",
     "isDeprecated": false,
-    "rightColumn": 64,
+    "rightColumn": 63,
     "iconName": "cross",
     "widgetId": "8vi24hr3fu",
     "minWidth": 50,
