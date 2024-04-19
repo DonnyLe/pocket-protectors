@@ -5,7 +5,7 @@
     "mobileBottomRow": 40,
     "widgetName": "Button5Copy",
     "onClick": "{{showModal('Modal_Copy');}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonColor": "#324479",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [
@@ -22,10 +22,7 @@
     "parentColumnSpace": 17.9375,
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 18,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
+    "dynamicBindingPathList": [{"key": "borderRadius"}],
     "text": "Make your spending goal",
     "isDisabled": false,
     "key": "n0ufs26kpz",

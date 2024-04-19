@@ -5,7 +5,7 @@
     "mobileBottomRow": 22,
     "widgetName": "Button4Copy",
     "onClick": "{{Create_Budget.run().then(() => {\n  create_spending_goal.run();\n});}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonColor": "#324479",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [
@@ -20,10 +20,7 @@
     "animateLoading": true,
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 45,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
+    "dynamicBindingPathList": [{"key": "borderRadius"}],
     "text": "Confirm",
     "isDisabled": false,
     "key": "n0ufs26kpz",
