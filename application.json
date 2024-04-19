@@ -1,11 +1,31 @@
 {
   "pages": [
     {
-      "id": "Log_In",
+      "id": "Login",
       "isDefault": true
     },
     {
       "id": "Groups",
+      "isDefault": false
+    },
+    {
+      "id": "Dashboard",
+      "isDefault": false
+    },
+    {
+      "id": "Investments",
+      "isDefault": false
+    },
+    {
+      "id": "Receipt",
+      "isDefault": false
+    },
+    {
+      "id": "ListOfTransactions",
+      "isDefault": false
+    },
+    {
+      "id": "Notifications",
       "isDefault": false
     }
   ],

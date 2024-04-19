@@ -1,35 +1,33 @@
 {
   "unpublishedPage": {
-    "name": "Log_In",
-    "slug": "log-in",
+    "name": "Dashboard",
+    "slug": "dashboard",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 470,
+          "bottomRow": 660,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 65,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 89,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 670,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
         "layoutOnLoadActions": [],
-        "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Log_In",
+        "id": "Dashboard",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -40,5 +38,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "6619b8bb1ad31f6b23f74454_6619b8bb1ad31f6b23f74456"
+  "gitSyncId": "662072f4057a3668d48c2548_6621dfe692a6eb5c73f27db7"
 }
