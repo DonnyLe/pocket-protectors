@@ -29,7 +29,7 @@
     "leftColumn": 30,
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{\"Total Item Cost: \" + currentItem.quantity * currentItem.unit_cost}}",
+    "text": "{{ \"Total Item Cost: $\" + (currentItem.quantity * currentItem.unit_cost).toFixed(2) }}",
     "key": "vo69xzsf20",
     "isDeprecated": false,
     "rightColumn": 57,
