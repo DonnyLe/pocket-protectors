@@ -4,6 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "Button6",
+    "onClick": "{{JSObject2.Button1onClick();\naddToGroup.run()}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
@@ -17,6 +18,7 @@
     "hideCard": false,
     "mobileRightColumn": 63,
     "animateLoading": true,
+    "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 47,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
