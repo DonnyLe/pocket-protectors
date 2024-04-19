@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1450,
+          "bottomRow": 1440,
           "containerStyle": "none",
           "snapRows": 74,
           "parentRowSpace": 1,
@@ -28,12 +28,12 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "investment_get_investments",
-              "name": "get_investments",
+              "id": "investment_update_investment",
+              "name": "update_investment",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "appsmith.store.user_id>"
+                "appsmith.store.investment_id>"
               ],
               "timeoutInMillisecond": 10000
             }
