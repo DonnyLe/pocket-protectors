@@ -2,7 +2,7 @@
   "pages": [
     {
       "id": "Dashboard",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "Receipt",
@@ -18,7 +18,7 @@
     },
     {
       "id": "Login",
-      "isDefault": false
+      "isDefault": true
     },
     {
       "id": "Investments",

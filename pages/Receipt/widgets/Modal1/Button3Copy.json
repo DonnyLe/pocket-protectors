@@ -2,7 +2,7 @@
     "resetFormOnClick": true,
     "boxShadow": "none",
     "widgetName": "Button3Copy",
-    "onClick": "{{create_receipt.run()}}",
+    "onClick": "{{create_receipt.run().then(() => {\n  get_all_receipts_from_user.run();\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [],
     "displayName": "Button",
