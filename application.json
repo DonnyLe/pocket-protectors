@@ -1,23 +1,23 @@
 {
   "pages": [
     {
-      "id": "Home Page",
+      "id": "Dashboard",
+      "isDefault": false
+    },
+    {
+      "id": "Receipt",
+      "isDefault": false
+    },
+    {
+      "id": "Login",
       "isDefault": true
     },
     {
-      "id": "Admin",
+      "id": "ListOfTransactions",
       "isDefault": false
     },
     {
-      "id": "My orders",
-      "isDefault": false
-    },
-    {
-      "id": "donny_edit",
-      "isDefault": false
-    },
-    {
-      "id": "investment",
+      "id": "Notifications",
       "isDefault": false
     }
   ],
@@ -37,11 +37,7 @@
   "publishedAppLayout": {
     "type": "DESKTOP"
   },
-  "unpublishedCustomJSLibs": [
-    {
-      "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
-    }
-  ],
+  "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 2,
