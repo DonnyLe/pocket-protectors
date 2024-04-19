@@ -28,12 +28,25 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Groups _JSObject2.Button1onClick",
+              "name": "JSObject2.Button1onClick",
+              "collectionId": "Groups _JSObject2",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "function () {\n  const admin = appsmith.store.users.find(user => user.email === Input1.text);\n  if (admin == undefined) {\n    return appsmith.store.user.group_id;\n  } else {\n    return admin.group_id;\n  }\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
               "id": "Groups _getAllGroupMembers",
               "name": "getAllGroupMembers",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "appsmith.store.user.group_id"
+                "JSObject2.Button1onClick.data"
               ],
               "timeoutInMillisecond": 10000
             }

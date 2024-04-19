@@ -7,7 +7,7 @@
     "type": "CURRENCY_INPUT_WIDGET",
     "animateLoading": true,
     "resetOnSubmit": true,
-    "leftColumn": 5,
+    "leftColumn": 4,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"}
@@ -27,7 +27,7 @@
     "originalBottomRow": 30,
     "needsErrorInfo": false,
     "mobileBottomRow": 28,
-    "widgetName": "CurrencyInput3",
+    "widgetName": "CurrencyInput3CopyCopy",
     "displayName": "Currency Input",
     "searchTags": [
         "amount",
@@ -44,11 +44,11 @@
     "key": "04rl2i0vez",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
-    "rightColumn": 58,
-    "widgetId": "cbhqbwmh9r",
+    "rightColumn": 60,
+    "widgetId": "hincl9uri7",
     "minWidth": 450,
-    "label": "Insert Value",
-    "parentId": "hthdm0ksy0",
+    "label": "Goal",
+    "parentId": "qr9c7o5nt7",
     "labelAlignment": "left",
     "renderMode": "CANVAS",
     "mobileTopRow": 21,

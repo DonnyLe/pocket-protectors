@@ -29,6 +29,16 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Dashboard_get_budget",
+              "name": "get_budget",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.user_id"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "Dashboard_get_receipt",
               "name": "get_receipt",
               "confirmBeforeExecute": false,

@@ -1,0 +1,3 @@
+{{
+{amount: CurrencyInput3.value, start_date: DatePicker1.formattedDate, end_date: DatePicker1Copy.formattedDate}
+}}

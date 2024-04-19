@@ -5,7 +5,7 @@ export default {
 
 		//store user data
 		storeValue("user", {
-			"user": user.user_id,
+			"user_id": user.user_id,
 			"email": user.email,
 			"first_name": user.first_name,
 			"group_id": user.group_id,

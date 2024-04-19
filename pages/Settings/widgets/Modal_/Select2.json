@@ -21,7 +21,6 @@
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisible": true,
     "version": 1,
-    "onDropdownOpen": "{{categories.run()}}",
     "tags": [
         "Suggested",
         "Select"
@@ -42,20 +41,17 @@
     "mobileRightColumn": 24,
     "shouldScrollContents": true,
     "parentColumnSpace": 6.9375,
-    "dynamicTriggerPathList": [
-        {"key": "onOptionChange"},
-        {"key": "onDropdownOpen"}
-    ],
+    "dynamicTriggerPathList": [],
     "labelPosition": "Left",
     "sourceData": "{{categories.data.map( (obj) =>{ return  {'label': obj.category_name, 'value': obj.category_id, \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t } })}}",
     "key": "zlha5pq9bz",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
     "rightColumn": 59,
-    "widgetId": "5om7rx36te",
+    "widgetId": "4ob3o4d5p0",
     "optionValue": "value",
     "minWidth": 450,
-    "parentId": "yi6g3hhhtc",
+    "parentId": "hthdm0ksy0",
     "labelAlignment": "left",
     "renderMode": "CANVAS",
     "mobileTopRow": 6,
@@ -64,6 +60,5 @@
     "originalTopRow": 7,
     "mobileLeftColumn": 4,
     "maxDynamicHeight": 9,
-    "onOptionChange": "",
     "minDynamicHeight": 4
 }
