@@ -18,7 +18,7 @@
     "animateLoading": true,
     "parentColumnSpace": 19.8125,
     "dynamicTriggerPathList": [],
-    "leftColumn": 16,
+    "leftColumn": 15,
     "dynamicBindingPathList": [],
     "children": [{
         "boxShadow": "none",
@@ -33,10 +33,7 @@
         "minHeight": 400,
         "parentColumnSpace": 1,
         "leftColumn": 0,
-        "dynamicBindingPathList": [
-            {"key": "borderRadius"},
-            {"key": "accentColor"}
-        ],
+        "dynamicBindingPathList": [{"key": "borderRadius"}],
         "key": "iv16tz47h6",
         "isDeprecated": false,
         "rightColumn": 475.5,
@@ -55,7 +52,7 @@
     "key": "i2gkdaesc8",
     "backgroundColor": "#E6E9F5",
     "isDeprecated": false,
-    "rightColumn": 28,
+    "rightColumn": 27,
     "dynamicHeight": "FIXED",
     "widgetId": "oa7ai9xltl",
     "containerStyle": "card",
@@ -64,7 +61,9 @@
     "parentId": "0",
     "renderMode": "CANVAS",
     "isLoading": false,
+    "originalTopRow": 11,
     "borderRadius": "0px",
     "maxDynamicHeight": 9000,
+    "originalBottomRow": 23,
     "minDynamicHeight": 4
 }

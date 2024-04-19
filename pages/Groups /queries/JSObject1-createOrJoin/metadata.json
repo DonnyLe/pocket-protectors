@@ -16,7 +16,7 @@
     "pageId": "Groups ",
     "collectionId": "Groups _JSObject1",
     "actionConfiguration": {
-      "timeoutInMillisecond": 0,
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],

@@ -15,10 +15,7 @@
     "parentColumnSpace": 3.7119140625,
     "dynamicTriggerPathList": [],
     "leftColumn": 0,
-    "dynamicBindingPathList": [
-        {"key": "borderRadius"},
-        {"key": "accentColor"}
-    ],
+    "dynamicBindingPathList": [],
     "key": "c3xzqeinqm",
     "dividerColor": "#5E6C9E",
     "orientation": "horizontal",
