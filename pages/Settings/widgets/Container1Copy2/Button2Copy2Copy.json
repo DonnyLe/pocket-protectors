@@ -2,7 +2,7 @@
     "resetFormOnClick": false,
     "boxShadow": "none",
     "widgetName": "Button2Copy2Copy",
-    "onClick": "{{navigateTo('Admin', {}, 'SAME_WINDOW')}}",
+    "onClick": "{{navigateTo('Groups ', {}, 'SAME_WINDOW');}}",
     "buttonColor": "transparent",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",

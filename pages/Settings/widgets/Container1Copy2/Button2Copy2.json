@@ -2,7 +2,7 @@
     "resetFormOnClick": false,
     "boxShadow": "none",
     "widgetName": "Button2Copy2",
-    "onClick": "{{navigateTo('Investments', {}, 'SAME_WINDOW');}}",
+    "onClick": "{{navigateTo('Settings', {}, 'SAME_WINDOW');}}",
     "buttonColor": "transparent",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
