@@ -33,5 +33,7 @@
     "parentId": "573bizkvmn",
     "renderMode": "CANVAS",
     "isLoading": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+    "originalTopRow": 8,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "originalBottomRow": 12
 }

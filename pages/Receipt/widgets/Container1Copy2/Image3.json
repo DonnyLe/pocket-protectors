@@ -20,14 +20,16 @@
     "isDeprecated": false,
     "rightColumn": 63,
     "objectFit": "contain",
-    "widgetId": "bqw37jl5sr",
+    "widgetId": "9m5767scet",
     "isVisible": true,
     "version": 1,
-    "parentId": "jk8mik4vma",
+    "parentId": "sa7yp4j55z",
     "renderMode": "CANVAS",
     "isLoading": false,
     "maxZoomLevel": 1,
     "enableDownload": false,
+    "originalTopRow": 70,
     "borderRadius": "0px",
+    "originalBottomRow": 92,
     "enableRotation": false
 }

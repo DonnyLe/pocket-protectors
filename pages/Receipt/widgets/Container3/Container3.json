@@ -12,8 +12,8 @@
         "parent",
         "group"
     ],
-    "topRow": 12,
-    "bottomRow": 25,
+    "topRow": 14,
+    "bottomRow": 27,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -22,7 +22,7 @@
     "animateLoading": true,
     "parentColumnSpace": 17.9375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 22,
+    "leftColumn": 16,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"},
@@ -74,7 +74,7 @@
     "key": "zfq6fgypno",
     "backgroundColor": "{{appsmith.theme.colors.backgroundColor}}",
     "isDeprecated": false,
-    "rightColumn": 51,
+    "rightColumn": 45,
     "dynamicHeight": "FIXED",
     "widgetId": "9c5mq1v02b",
     "containerStyle": "card",

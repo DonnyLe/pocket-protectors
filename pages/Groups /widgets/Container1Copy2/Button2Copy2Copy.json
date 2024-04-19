@@ -33,8 +33,10 @@
     "parentId": "sd6ugqrwvx",
     "renderMode": "CANVAS",
     "isLoading": false,
+    "originalTopRow": 33,
     "disabledWhenInvalid": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "originalBottomRow": 37,
     "buttonVariant": "PRIMARY",
     "placement": "START"
 }

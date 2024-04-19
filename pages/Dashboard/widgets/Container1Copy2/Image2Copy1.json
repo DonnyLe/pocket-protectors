@@ -28,6 +28,8 @@
     "isLoading": false,
     "maxZoomLevel": 1,
     "enableDownload": false,
+    "originalTopRow": 25,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "originalBottomRow": 29,
     "enableRotation": false
 }

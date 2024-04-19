@@ -2,7 +2,7 @@
     "resetFormOnClick": false,
     "boxShadow": "none",
     "widgetName": "Button2Copy2Copy",
-    "onClick": "{{navigateTo('Admin', {}, 'SAME_WINDOW')}}",
+    "onClick": "{{navigateTo('Groups ', {}, 'SAME_WINDOW');}}",
     "buttonColor": "transparent",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -33,8 +33,10 @@
     "parentId": "573bizkvmn",
     "renderMode": "CANVAS",
     "isLoading": false,
+    "originalTopRow": 33,
     "disabledWhenInvalid": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "originalBottomRow": 37,
     "buttonVariant": "PRIMARY",
     "placement": "START"
 }

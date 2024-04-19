@@ -22,13 +22,15 @@
     "strokeStyle": "solid",
     "isDeprecated": false,
     "rightColumn": 64,
-    "widgetId": "w9q7mftacj",
+    "widgetId": "o2jyj0uyra",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "capSide": 0,
     "isVisible": true,
     "version": 1,
-    "parentId": "jk8mik4vma",
+    "parentId": "sa7yp4j55z",
     "renderMode": "CANVAS",
     "isLoading": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+    "originalTopRow": 8,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "originalBottomRow": 12
 }
