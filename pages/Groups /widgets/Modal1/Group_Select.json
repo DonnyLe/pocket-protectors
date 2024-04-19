@@ -40,7 +40,7 @@
     "parentColumnSpace": 6.9375,
     "dynamicTriggerPathList": [],
     "labelPosition": "Top",
-    "sourceData": "[\n  {\n    \"name\": \"Join Group\",\n    \"code\": \"join\"\n  },\n  {\n    \"name\": \"Create Group\",\n    \"code\": \"create\"\n  }\n]",
+    "sourceData": "[\n  {\n    \"name\": \"Join Group\",\n    \"code\": \"join\"\n  },\n  \n]",
     "key": "xuz6iyj5ap",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,

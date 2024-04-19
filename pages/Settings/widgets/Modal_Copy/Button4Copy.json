@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "Button4Copy",
-    "onClick": "{{Create_Budget.run().then(() => {\n  create_spending_goal.run();\n});}}",
+    "onClick": "{{Create_Budget.run().then(() => {\n  closeModal('');\n});}}",
     "buttonColor": "#324479",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
