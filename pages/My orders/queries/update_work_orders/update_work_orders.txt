@@ -1,0 +1,8 @@
+UPDATE work_orders
+SET request_date= {{requestedDate.formattedDate}}, 
+		maintenance_notes= {{maintenanceNotes.text}},
+		completed= {{orderCompleted.selectedOptionValue}},
+		hours= {{hoursUsed.text}},
+		total_cost= {{totalCosts.value}},
+		mat_cost= {{materialCosts.value}}
+WHERE work_id={{orderList.selectedItem.work_id}};
