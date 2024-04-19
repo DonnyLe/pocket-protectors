@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Login",
-    "slug": "login",
+    "name": "Investments",
+    "slug": "investments",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 400,
+          "bottomRow": 1460,
           "containerStyle": "none",
           "snapRows": 92,
           "parentRowSpace": 1,
@@ -25,10 +25,23 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Investments_update_investment",
+              "name": "update_investment",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.investment_id"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Login",
+        "id": "Investments",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -39,5 +52,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "661ee6324348397a7bbb4732_6621c1718c6e8e6585780c90"
+  "gitSyncId": "661ee6324348397a7bbb4732_6621c0a18c6e8e6585780c78"
 }

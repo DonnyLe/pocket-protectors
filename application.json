@@ -2,15 +2,11 @@
   "pages": [
     {
       "id": "Dashboard",
-      "isDefault": false
+      "isDefault": true
     },
     {
       "id": "Receipt",
       "isDefault": false
-    },
-    {
-      "id": "Login",
-      "isDefault": true
     },
     {
       "id": "ListOfTransactions",
@@ -18,6 +14,14 @@
     },
     {
       "id": "Notifications",
+      "isDefault": false
+    },
+    {
+      "id": "Investments",
+      "isDefault": false
+    },
+    {
+      "id": "Login",
       "isDefault": false
     }
   ],

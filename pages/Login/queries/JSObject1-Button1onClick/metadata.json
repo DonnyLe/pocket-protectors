@@ -16,7 +16,7 @@
     "pageId": "Login",
     "collectionId": "Login_JSObject1",
     "actionConfiguration": {
-      "timeoutInMillisecond": 10000,
+      "timeoutInMillisecond": 0,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
@@ -35,9 +35,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-18T03:34:36Z"
+    "createdAt": "2024-04-19T00:57:30Z"
   },
   "id": "Login_JSObject1.Button1onClick",
   "deleted": false,
-  "gitSyncId": "662086b53a758e0207fcf369_662094cc3a758e0207fcf38a"
+  "gitSyncId": "661ee6324348397a7bbb4732_6621c17a8c6e8e6585780c96"
 }
