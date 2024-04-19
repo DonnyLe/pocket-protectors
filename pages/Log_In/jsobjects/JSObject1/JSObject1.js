@@ -11,9 +11,10 @@ export default {
 											"group_id": user.group_id,
 											"last_name": user.last_name,
 											"middle_name": user.middle_name,
-											"password": user.password,
-										 
-										 }) 
+											"password": user.password
+										 })
+		//store all user data
+		storeValue("users", all_users.data)
 		
 		// If user is found, return the user object, otherwise return null
 		return user || null;
