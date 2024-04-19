@@ -27,6 +27,10 @@
     {
       "id": "Groups ",
       "isDefault": false
+    },
+    {
+      "id": "Settings",
+      "isDefault": false
     }
   ],
   "viewMode": false,
