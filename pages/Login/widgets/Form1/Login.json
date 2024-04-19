@@ -18,7 +18,7 @@
     "overflow": "NONE",
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "dynamicTriggerPathList": [],
-    "leftColumn": 1.5,
+    "leftColumn": 2,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -29,7 +29,7 @@
     "text": "Login",
     "key": "4nls912fzv",
     "isDeprecated": false,
-    "rightColumn": 25.5,
+    "rightColumn": 26,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "8d4jhs9rx7",
