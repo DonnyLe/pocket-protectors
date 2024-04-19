@@ -1,0 +1,10 @@
+{{
+{
+email: appsmith.store.user.email,
+first_name: appsmith.store.user.first_name,
+group_id: JSObject2.Button1onClick.data,
+last_name: appsmith.store.user.last_name,
+middle_name: appsmith.store.user.middle_name,
+password: appsmith.store.user.password
+}
+}}

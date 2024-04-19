@@ -17,11 +17,15 @@
       "isDefault": false
     },
     {
-      "id": "Login",
+      "id": "Investments",
+      "isDefault": false
+    },
+    {
+      "id": "Log-in",
       "isDefault": true
     },
     {
-      "id": "Investments",
+      "id": "Groups",
       "isDefault": false
     }
   ],

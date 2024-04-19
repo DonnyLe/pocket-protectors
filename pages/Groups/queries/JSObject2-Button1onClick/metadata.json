@@ -3,7 +3,7 @@
   "pluginId": "js-plugin",
   "unpublishedAction": {
     "name": "Button1onClick",
-    "fullyQualifiedName": "JSObject1.Button1onClick",
+    "fullyQualifiedName": "JSObject2.Button1onClick",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Login",
-    "collectionId": "Login_JSObject1",
+    "pageId": "Groups",
+    "collectionId": "Groups_JSObject2",
     "actionConfiguration": {
       "timeoutInMillisecond": 0,
       "paginationType": "NONE",
@@ -35,9 +35,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-19T00:57:30Z"
+    "createdAt": "2024-04-19T03:15:37Z"
   },
-  "id": "Login_JSObject1.Button1onClick",
+  "id": "Groups_JSObject2.Button1onClick",
   "deleted": false,
-  "gitSyncId": "661ee6324348397a7bbb4732_6621c17a8c6e8e6585780c96"
+  "gitSyncId": "661ee6324348397a7bbb4732_6621e1d9c323b854319a39db"
 }
