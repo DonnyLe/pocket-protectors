@@ -175,8 +175,10 @@
     "renderMode": "CANVAS",
     "isLoading": false,
     "yAxisName": "Revenue($)",
+    "originalTopRow": 28,
     "chartName": "Spending",
     "borderRadius": "0px",
     "xAxisName": "Product Line",
+    "originalBottomRow": 92,
     "chartType": "PIE_CHART"
 }
