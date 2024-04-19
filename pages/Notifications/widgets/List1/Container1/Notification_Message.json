@@ -29,7 +29,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{Get_User_Notifications.data.message}}",
+    "text": "{{currentItem.message}}",
     "key": "fu3qlly7cy",
     "isDeprecated": false,
     "rightColumn": 64,

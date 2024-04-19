@@ -29,11 +29,13 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Dashboard_Get_Users",
-              "name": "Get_Users",
+              "id": "Dashboard_get_receipt",
+              "name": "get_receipt",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "appsmith.store.user_id"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]

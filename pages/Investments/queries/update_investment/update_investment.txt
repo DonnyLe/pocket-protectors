@@ -1,0 +1,3 @@
+{{{investment_type: JSONForm1.formData.investmentType, purchase_date: JSONForm1.formData.purchaseDate, stock_name: JSONForm1.formData.stockName
+	}
+}}

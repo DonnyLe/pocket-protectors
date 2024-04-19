@@ -88,7 +88,7 @@
     "currentItemsView": "{{[]}}",
     "triggeredItemView": "{{{}}}",
     "widgetName": "List1",
-    "listData": "{{Get_User_Notifications.data.map((notifications) => {\n  return {\n\t\tnotification_id: notifications.notification_id,\n\t\trepeat: notifications.repeat,\n    notification_time: notifications.notification_time,\n    notification_date: notifications.notification_date,\n\t\tmessage: notifications.message, \n\t\tuser_id: notifications.user_id, \n\t\tbudget_id: notifications.budget_id\n    };\n  });\n}}\n",
+    "listData": "{{Get_User_Notifications.data.map((notifications) => {\n  return {\n\t\tnotification_id: notifications.notification_id,\n\t\trepeat: notifications.repeat,\n    notification_time: notifications.notification_time,\n    notification_date: notifications.notification_date,\n\t\tmessage: notifications.Message, \n\t\tuser_id: notifications.user_id, \n\t\tbudget_id: notifications.budget_id\n    };\n  });\n}}\n",
     "displayName": "List",
     "bottomRow": 79,
     "parentRowSpace": 10,

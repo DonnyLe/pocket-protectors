@@ -8,6 +8,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
+        "sshProxyEnabled": false,
         "url": ""
       },
       "invalids": [],
@@ -61,9 +62,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-19T00:54:04Z"
+    "createdAt": "2024-04-19T01:12:14Z"
   },
   "id": "Investments_get_investments",
   "deleted": false,
-  "gitSyncId": "661ee6324348397a7bbb4732_6621c0ac8c6e8e6585780c7b"
+  "gitSyncId": "661ee6324348397a7bbb4732_6621c4eec323b854319a39b9"
 }

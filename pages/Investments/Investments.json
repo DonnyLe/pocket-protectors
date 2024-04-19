@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1460,
+          "bottomRow": 1090,
           "containerStyle": "none",
           "snapRows": 92,
           "parentRowSpace": 1,
@@ -25,20 +25,7 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Investments_update_investment",
-              "name": "update_investment",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.investment_id"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
+        "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Investments",
@@ -52,5 +39,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "661ee6324348397a7bbb4732_6621c0a18c6e8e6585780c78"
+  "gitSyncId": "661ee6324348397a7bbb4732_6621c4cbc323b854319a39b6"
 }

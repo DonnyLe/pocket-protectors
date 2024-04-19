@@ -7,8 +7,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 5,
-    "bottomRow": 10,
+    "topRow": 4,
+    "bottomRow": 9,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -17,16 +17,17 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 4.3310546875,
     "dynamicTriggerPathList": [],
-    "leftColumn": 1,
+    "leftColumn": 7,
     "dynamicBindingPathList": [
         {"key": "fontFamily"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "text"}
     ],
     "shouldTruncate": false,
-    "text": "",
+    "text": "{{JSObject1.getTotalExpenses()}}",
     "key": "8ao8442ejy",
     "isDeprecated": false,
-    "rightColumn": 48,
+    "rightColumn": 54,
     "textAlign": "LEFT",
     "dynamicHeight": "FIXED",
     "widgetId": "imo7r8pmwi",
